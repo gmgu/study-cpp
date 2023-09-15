@@ -9,8 +9,8 @@ int main() {
   // primary tokens are &&, |, ||, ^, and so on
   // Alternative tokens are and, bitor, or, xor, and so on.
 
-  cout << (true and false) << endl;
   cout << (true && false) << endl;
+  cout << (true and false) << endl;
 
   cout << (1 | 0) << endl;
   cout << (1 bitor 0) << endl;
@@ -53,5 +53,5 @@ int main() {
     cout << arr1[i] << " " << arr2[i] << endl;;
   }
 
-  // Question: what is ##? (which is a primary token, and be replaced by %:%: of alternative token)
+  // Question: what is ##? (which is a primary token, and can be replaced by %:%: of alternative token)
 }

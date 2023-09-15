@@ -12,7 +12,7 @@ int main() {
   cout << 0XC << endl;  // both a-f and A-F possible
 
   cout << 0b1100 << endl;  // binary-literal
-  cout << 0B1100 << endl;  // binary-literal
+  cout << 0B1100 << endl;  // both b and B possible
 
 
   cout << 1048576 << endl;
