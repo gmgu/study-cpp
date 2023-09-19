@@ -16,6 +16,9 @@ int main() {
   cout << 0xC.68p+0 * 4 << endl;  // 0xC.68 * 4 = 12.40625 * 4
   cout << 0xC.68p+2 << endl;      // 0xC.68 * 2^(+2)
 
+  cout << 1.602'176'565e-19 << endl;
+  cout << 1.602176565e-19 << endl;
+
   cout << sizeof(double) << endl;  // 8
   cout << sizeof(float) << endl;  //4
   cout << sizeof(long double) << endl;  //16
@@ -23,4 +26,5 @@ int main() {
   cout << sizeof(0xC.68p+2) << endl;  //8
   cout << sizeof(49.625L) << endl;  //16
   cout << sizeof(0xC.68p+2L) << endl;  //16
+
 }
